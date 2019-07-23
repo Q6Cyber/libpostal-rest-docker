@@ -24,6 +24,9 @@ docker build -t libpostal-rest --build-arg COMMIT=e816b4f77e8c6a7f35207ca77282ff
 docker build -t libpostal-rest --build-arg COMMIT=parser-data .
 ```
 
+Internally at Q6 this service is deployed here:
+`http://libpostal.internal.q6cyber.com:8080/parser`
+
 If a commit/hash is not specified it defaults to the **master** branch
 
 ## Feature Requests and Bugs
